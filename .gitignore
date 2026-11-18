@@ -221,3 +221,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Medical imaging datasets
+data/
+*.nii
+*.nii.gz
+*.dcm
+
+# Generated 3D meshes
+*.stl
+*.obj
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+.env
