@@ -23,11 +23,8 @@ segmentation masks into interactive 3D surface meshes.
 
 ## Dataset
 
-Medical imaging data from a publicly available
-research dataset.
-
-The original dataset publication, DOI, and access
-instructions will be added after dataset verification.
+For dataset licensing and attribution details,
+see [DATA_LICENSE.md](DATA_LICENSE.md).
 
 ## Project Status
 
