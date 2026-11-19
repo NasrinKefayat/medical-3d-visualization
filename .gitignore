@@ -241,3 +241,17 @@ __pycache__/
 # Local environments
 .venv/
 .env
+# Generated documentation
+docs/build/
+
+# Local data
+data/
+*.nii
+*.nii.gz
+*.dcm
+
+# Generated meshes
+*.stl
+
+# Local configuration
+.env
