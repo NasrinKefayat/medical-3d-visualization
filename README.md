@@ -125,3 +125,34 @@ on a 3D anatomical surface.
 
 The colors represent geometric height only and
 do not indicate tissue properties or clinical findings.
+## Step 5 — Mesh Analysis and Quantitative Evaluation
+
+The reconstructed 3D mesh was analyzed to calculate
+its geometric properties.
+
+### Measurements
+
+- Mesh volume (mm³)
+- Surface area (mm²)
+- Bounding box dimensions (mm)
+- Watertightness
+- Voxel-based segmentation volume
+
+### Volume Comparison
+
+Two volume estimation methods were compared:
+
+1. Voxel-based volume calculated from the segmentation mask.
+2. Mesh-based volume calculated from the reconstructed surface.
+
+The percentage difference between both measurements
+was calculated to investigate the effect of surface
+reconstruction on volume estimation.
+
+### Results
+
+![Volume Comparison](results/figures/volume_comparison.png)
+
+Numerical measurements are available in:
+
+`results/mesh_analysis.csv`

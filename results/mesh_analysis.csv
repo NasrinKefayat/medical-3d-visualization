@@ -1,0 +1,2 @@
+vertices,faces,mesh_volume_mm3,segmentation_volume_mm3,surface_area_mm2,bbox_x_mm,bbox_y_mm,bbox_z_mm,volume_difference_percent,watertight
+5886,11768,10942.371241251627,10997.622680664062,3935.2199938783424,34.9375,35.609375,30.0,0.502394390285622,True
