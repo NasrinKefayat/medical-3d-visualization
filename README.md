@@ -101,3 +101,27 @@ visually compare the reconstructed anatomical structure.
 
 Quantitative agreement between the Python-generated mesh
 and 3D Slicer measurements has not yet been established.
+## Step 4 — Interactive 3D Visualization
+
+An interactive 3D visualization was developed using
+Plotly and Trimesh.
+
+### Features
+
+- Loading reconstructed STL meshes.
+- Interactive rotation and zoom.
+- Height-based color mapping.
+- Visualization of 3D geometry in millimeters.
+- Exporting interactive visualizations as HTML.
+
+### Color Mapping
+
+The Z-coordinate of each mesh vertex was mapped to a
+continuous color scale.
+
+This demonstrates a basic scientific visualization
+technique for representing numerical information
+on a 3D anatomical surface.
+
+The colors represent geometric height only and
+do not indicate tissue properties or clinical findings.
