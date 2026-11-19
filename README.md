@@ -65,3 +65,39 @@ will be included in the dataset documentation.
 CT images and their corresponding segmentation masks
 were successfully loaded, geometrically aligned,
 and visualized.
+## Step 3 — 3D Mesh Reconstruction
+
+A lymph node segmentation mask from the HCUCH dataset was
+converted into a 3D surface mesh using the Marching Cubes algorithm.
+
+### Method
+
+1. Selected a segmented lymph node.
+2. Converted the segmentation into a binary 3D mask.
+3. Applied Marching Cubes with the original voxel spacing.
+4. Generated a triangular surface mesh.
+5. Visualized the reconstructed model using Plotly.
+6. Exported the mesh in STL format.
+7. Performed a visual comparison using 3D Slicer.
+
+### Mesh Results
+
+| Metric | Value |
+|---|---|
+| Vertices | 5,886 |
+| Faces | 11,768 |
+| Bounding Box X | 34.94 mm |
+| Bounding Box Y | 35.61 mm |
+| Bounding Box Z | 30.00 mm |
+| Watertight | True |
+
+The reported dimensions represent the mesh bounding box,
+not clinical lymph node diameter measurements.
+
+### 3D Slicer Comparison
+
+The segmentation was also inspected in 3D Slicer to
+visually compare the reconstructed anatomical structure.
+
+Quantitative agreement between the Python-generated mesh
+and 3D Slicer measurements has not yet been established.
